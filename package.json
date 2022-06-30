@@ -1,14 +1,19 @@
 {
-  "name": "react-map",
+  "name": "bithday-list",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-google-maps/api": "^2.8.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "framer-motion": "^6.3.3",
+    "google-map-react": "^2.1.10",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
+    "react-toastify": "^9.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +39,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "install": "^0.13.0",
+    "npm": "^8.6.0",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
   }
 }
